@@ -1,0 +1,69 @@
+body,
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#body-inner {
+  padding-left: 2rem;
+}
+
+#body-inner h1, #body-inner h3 {
+  color: #171614;
+}
+
+#body-inner p {
+  color: #393228;
+  font-weight: 300;
+}
+
+#chapter h1 {
+  font-family: 'El Messiri', sans-serif;
+  border-bottom: 4px solid #222;
+}
+
+#chapter p {
+  color: #353535;
+}
+
+#sidebar {
+  background-color: #121212;
+}
+
+#sidebar a {
+  color: #BABAB9;
+}
+
+#sidebar a:hover {
+  color: #fff;
+}
+
+#sidebar a.padding {
+  color: #555;
+}
+
+#sidebar hr {
+  border-bottom: 1px solid #2a2824;
+}
+
+#sidebar #header-wrapper #header {
+  background: #121212;
+}
+
+#sidebar #header-wrapper #header #logo {
+  color: #CC9900;
+  font-family: 'El Messiri', sans-serif;
+  font-size: 2rem;
+}
+
+#sidebar #header-wrapper #header .searchbox {
+  border: 1px solid #1d1c1a;
+  background: #1d1c1a;
+}
+
+#sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
+  background: #171614;
+}
+
+#body .nav > i {
+  color: #2F8CAB;
+}

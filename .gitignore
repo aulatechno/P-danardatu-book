@@ -1,0 +1,6 @@
+cache/
+logs/grav.log
+logs/popularity/visitors.json
+logs/popularity/totals.json
+logs/popularity/monthly.json
+logs/popularity/daily.json

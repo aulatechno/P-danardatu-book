@@ -1,0 +1,95 @@
+// compileExpanded: ../css/$1.css
+
+body,
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#body-inner {
+  padding-left: 1rem;
+
+  h1, h3{
+    color: #171614;
+  }
+
+  p {
+    color: #393228;
+    font-weight: 300;
+  }
+}
+
+#chapter {
+  h1 {
+    font-family: 'El Messiri', sans-serif;
+    border-bottom: 4px solid #222;
+  }
+
+  p {
+    color: #353535;
+  }
+}
+
+#sidebar {
+  background-color: #121212;
+
+  a {
+    color: #BABAB9;
+
+    &:hover {
+      color: #fff;
+    }
+
+    &.padding {
+      color: #555;
+    }
+  }
+
+  hr {
+    border-bottom: 1px solid #2a2824;
+  }
+
+  #header-wrapper {
+    #header {
+      background: #121212;
+
+      #logo {
+        color: #CC9900;
+        font-family: 'El Messiri', sans-serif;
+        font-size: 2rem;
+      }
+
+      .searchbox {
+        border: 1px solid #1d1c1a;
+        background: #1d1c1a;
+      }
+    }
+  }
+
+  ul {
+
+    &.topics {
+      > li{
+        &.parent, &.active {
+            background: #171614;
+        }
+      }
+    }
+
+    li {
+      &.visited {
+        > a .read-icon {
+          //color: #CBA135;
+        }
+      }
+    }
+  }
+}
+
+
+#body {
+  .nav {
+    > i {
+      color: #2F8CAB;
+    }
+  }
+}

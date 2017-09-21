@@ -1,0 +1,34 @@
+@media (max-width: 1080px){
+  #body-inner {
+	padding-left: 3rem;
+  }
+  #body-inner h1{
+	font-size: 2.25rem;
+  }
+
+  #chapter h1 {
+    font-size: 2.5rem;
+  }
+}
+
+
+@media (max-width: 768px){
+  #chapter{
+	padding: 0;
+  }
+  #chapter #body-inner {
+    padding-bottom: 0;
+  }
+  #body-inner {
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: 0;
+	border-left: none;
+  }
+  #body-inner h3{
+	font-size: 1.75rem;
+  }
+  .nav .fa{
+	font-size: 2rem;
+  }
+}

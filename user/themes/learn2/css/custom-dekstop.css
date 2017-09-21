@@ -1,0 +1,59 @@
+#chapter #body-inner {
+  border-left: none;
+  padding-left: 0;
+}
+
+#body-inner {
+  border-left: 3px solid #bababa;
+}
+
+#top-bar{
+  display: none;
+}
+
+body{
+  background-color: #FAEBD7;
+}
+
+table,thead,tbody,tr,td,th {
+  border: 1px solid #999;
+}
+
+th{
+  background: #EAEAEA;
+}
+
+thead th{
+   background-color: #FFE4C4;
+}
+
+#body .nav:hover {
+    background: #DEB887;
+}
+
+#body .nav > i {
+    color: #686866;
+}
+
+#sidebar-toggle i{
+  color: #686866;
+}
+
+#sidebar-toggle i:hover{
+  color: #000;
+}
+
+#sidebar ul li.visited > a .read-icon {
+  color: #BABAB9;
+}
+
+#sidebar ul li.active > a .read-icon{
+  color: #555;
+}
+#body-inner h3 a{
+  font-family: 'El Messiri', sans-serif;
+  color: #000;
+}
+#body-inner h3 a:hover{
+  color: #686866;
+}

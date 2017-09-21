@@ -1,0 +1,11 @@
+email: budi03@gmail.com
+fullname: KeiJR
+title: Administrator
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$OIDLQGR1hQTOPQWgaVGTYeprHrMVFxSjXkhmylCm0Ql9/bFQ/Epqm
